@@ -1,0 +1,122 @@
+/* <!--------------- start Nav bar in the frist page (home page )------------> */
+body{
+    scroll-behavior: smooth;
+}
+.nav1{
+    background-color: rgb(31, 30, 30);
+}
+.img1{
+    width: 150px ;
+    height: 100px;
+}
+.link3,
+.link4{
+    color: white;
+}
+.link3:hover,
+.link4:hover{
+    color: #ffc107;
+}
+.active1{
+    color: white;
+    background-color: #ffc107 ;
+}
+/* <!--------------- start section 1 in the frist page (home page )------------> */
+.part1{
+    padding-top: 200px;
+    padding-bottom: 300px;
+    background-image: url(../img/home_bg.jpg);
+    background-size: cover;
+    color: white;
+}
+.header2,
+.header3{
+    letter-spacing: 0.5em;
+    color: white;
+   
+}
+.div1{
+    border-bottom: 2px solid white;
+    width: fit-content;
+}
+.link1,
+.link2{
+    padding: 10px 20px;
+    border: 1px solid white;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+.link1:hover{
+    color: white;
+}
+.link2:hover{
+    color: #343a40;
+}
+.link2{
+    background-color: #ffc107;
+    color: #343a40;
+    border-color: #ffc107;
+}
+
+
+/* <!--------------- start section 2 in the frist page (home page )------------> */
+.sec2{
+    background:url(../img/our_qualities_bg.png);
+    padding:90px 0px;
+   
+     
+
+}
+
+.qualityfood{
+    text-align: center;
+}
+/* <!--------------- end section 2 in the frist page (home page )------------> */
+/* <!--start  choice of items --> */
+
+.price{
+
+   color: black;
+}
+
+ 
+#select:hover {
+
+    background: rgb(231, 195, 15);
+}
+
+#next{
+
+    padding: 5px 15px;
+}
+/* <!--end  choice of items --> */
+/* <!--start dashbord page --> */
+.adminpanel{
+    color: gray;
+}
+.sidebar{
+    box-shadow: 0 0 10px #ddd;
+}
+.active2{
+    background-color: #007bff;
+    color: white;
+
+}
+/* <!--end dashbord page --> */
+.menus,
+.gallary{
+    color: white;
+}
+.img2{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+/* <!-- start website Settings --> */
+.form_header{
+    display: flex;
+    text-align: center;
+}
+
+ /* <!-- end website Settings --> */
