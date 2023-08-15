@@ -36,10 +36,9 @@
     <hr>
 
 
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     <h1>**** tasks for yara mohamed ****</h1>
     <h4>hint >>the following tasks i made only  front end for them </h4>
-
     <p>1. section 2 in the first page (home page ) which is distinct with Quality Foods' header </p>
     <p>2. div wiht name send meesage in the first page (home page ) which is distinct with header >> Get in touch with
         us & send us message today! </p>
@@ -50,7 +49,7 @@
         responsive</p>
     <p>6. page for invoice </p>
     <p>7. collecting data for menus (menu neme ,description , image ) </p>
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     <h1>**** tasks for Menna Ahmed ****</h1>
     <h4>hint >>the following tasks i made only  front end for them </h4>
 
@@ -62,21 +61,19 @@
     <p>Uploud photo in new menu page </p>
    <p>make website responsive in some pages</p>
 
-
-    <h1>**** tasks for Yousef Emad ****</h1>
-    <h4>hint >>the following tasks  made  front and back for them </h4>
-    <p>menu categores page
-  ,add Menu page,add gallary page,cleint page user page,choice items page in Dashbord </p>
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+<h1>**** tasks for Yousef Emad ****</h1>
+<h4>hint >>the following tasks  made  front and back for them </h4>
+<p>menu categores page ,add Menu page,add gallary page,cleint page user page,choice items page in Dashbord  (all pages in dashboard  front & back end )</p
+<p>vertical menu & nav bar in dashboard (two code fot this (yousef & menna ))</p>  
 <h4>hint >>the following tasks i made only  back end for them </h4>
-<p>Dashbord page</p>
 <p>gallary in home page</p>
 <p>discover our menu in home page</p>
-<p>database and mapping</p>
-<p>login page</p>
-<p>all sessionns in dasbord</p>
+<p>creating database and mapping</p>
+<p>login  page</p>
+<p>all sessionns in websaite</p>
 
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 <h1>**** tasks for sama mohamed ****</h1>
 <p>footer frontend</p>
@@ -85,7 +82,7 @@
 <p>delete function in menus page</p>
 <p>edit function in menu page</p>
 <p> page for table Reservation with helping of <span style="text-decoration: underline;">yara mohamed</span></p>
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 <h1>**** tasks for eman hagag ****</h1>
 <p>1.mapping design for data base </p>
