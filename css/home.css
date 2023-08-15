@@ -1,0 +1,292 @@
+/* <!--------------- start Nav bar in the frist page (home page )------------> */
+body{
+    scroll-behavior: smooth;
+    margin: 0px;
+}
+
+/* .nav1{
+    background-color: rgb(31, 30, 30);
+} */
+.img1{
+    width: 150px ;
+    height: 100px;
+}
+.link3,
+.link4{
+    color: white;
+}
+.link3:hover,
+.link4:hover{
+    color: #ffc107;
+}
+.active1{
+    color: white;
+    background-color: #ffc107 ;
+   
+}
+.active1:hover{
+    color: black;
+   
+}
+
+
+
+/* <!--------------- start section 1 in the frist page (home page )------------> */
+.thumbnail 
+{
+    display: block;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+    text-align: center;
+    background: inherit;
+}
+
+.our_menus, .image-gallery
+{
+    color: #dce4e8;
+    padding: 100px 0px;
+    background:#121618;
+}
+
+.menu_category_name
+{
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: top;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 22px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.tab_category_content
+{
+    display: none;
+}
+
+    
+.no_menus_div
+{
+    margin:auto;
+    font-size: 26px;
+    font-weight: bold;
+    width: fit-content;
+    color: #ffc851;
+}
+
+.active_category
+{
+    color: #ffc851;
+}
+
+
+.menu-image 
+{
+    position: relative;
+    max-width: 200px;
+    margin: 50px auto;
+}
+
+.menu-image .image-preview 
+{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: 100%;
+    border: 6px solid #222227;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.menu-image .image-preview > div 
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.thumbnail>.caption>p
+{
+    font-size: 14px;
+    line-height: 28px;
+    margin-top: 14px;
+}
+
+.menu_price
+{
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 3px;
+    display: block;
+}
+/* <!--------------- start section 1 in the frist page (home page )------------> */
+/* <!--------------- start section 1 in the frist page (home page )------------> */
+.part1{
+    padding-top: 200px;
+    padding-bottom: 300px;
+    background-image: url(../img/home_bg.jpg);
+    background-size: cover;
+    color: white;
+}
+.header2,
+.header3{
+    letter-spacing: 0.5em;
+    color: white;
+   
+}
+.div1{
+    border-bottom: 2px solid white;
+    width: fit-content;
+}
+.link1,
+.link2{
+    padding: 10px 20px;
+    border: 1px solid white;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+.link1:hover{
+    color: white;
+}
+.link2:hover{
+    color: #343a40;
+}
+.link2{
+    background-color: #ffc107;
+    color: #343a40;
+    border-color:#ffc107;
+    transition: 0.5s;
+    background: linear-gradient(to right,black 50%,#ffc107 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+}
+.link2:hover{
+    
+        background-position: left bottom;
+        color: #ffc107;
+        border-color: black;
+}
+
+/* <!--------------- start section 2 in the frist page (home page )------------> */
+.sec2{
+    background:url(../img/our_qualities_bg.png);
+    padding:90px 0px;
+   
+
+}
+
+.qualityfood{
+    text-align: center;
+}
+/* <!--------------- end section 2 in the frist page (home page )------------> */
+/* <!--start  choice of items --> */
+
+.price{
+
+   color: black;
+}
+
+ 
+#select:hover {
+
+    background: rgb(231, 195, 15);
+}
+
+#next{
+
+    padding: 5px 15px;
+}
+/* <!--end  choice of items --> */
+/* <!--start dashbord page --> */
+.adminpanel{
+    color: gray;
+}
+.sidebar,
+.nav2{
+    box-shadow: 0 0 10px #ddd;
+}
+.active2{
+    background-color: #007bff;
+    color: white;
+
+}
+/* <!--end dashbord page --> */
+.menus,
+#gallary{
+    color: white;
+    background-color: #343a40;
+}
+.img2{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+/* .round{
+
+  width: 120px;
+  height: 120px;
+    border: 3px solid #007bff;
+    border-radius: 50%; 
+   
+} */
+/* --------------------------------------------------------- */
+
+  
+
+
+
+
+ /* <!-- star send messages --> */
+ .send_message{
+    background-image:url(../img/back_3.jpg);
+    padding:90px 0px;
+ 
+   
+}
+
+.left_part{
+    background-color: white;
+    padding: 30px;
+ 
+}
+ 
+/* <!-- end send messages --> */
+
+
+
+
+/* .above{
+    position: relative;
+   margin: 0 auto;
+    
+ }
+ .buttom{
+    margin-top: 20px;
+ }
+ .second{
+    background-color: rgba(0 0 0 /40%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+ }
+ .third{
+    position: absolute;
+    bottom: 0;
+    
+ } */
