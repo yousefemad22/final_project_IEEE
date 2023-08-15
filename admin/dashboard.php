@@ -7,13 +7,14 @@ $css_file="dashboard.css";
      
     $total_clients=count(get_all_data('clients'));
     $total_menus=count(select_menu('menus','menu_categories'));
-    $total_appointment=17;
+    $total_tabels=count(get_all_data("tables"));
     $total_orders=count(select_orders("orders"));
     $client_name="sama mohamed";
     $client_id="5";
     $cancelation_reason="too late";
     $selected_menus="pizza";
     $total_price=172;
+  
 ?>
 
 <!-- first div of total clients -->
@@ -81,13 +82,13 @@ $css_file="dashboard.css";
             <i style="color: white; font-size: 60px;" class="fa-solid fa-calendar-days ml-2"></i>
             </div>
             <div class="txt">
-                <h4 class="justify-content-end ml-5"><?php echo $total_appointment?></h4>
-                <p>Total Appoinntments</p>
+                <h4 class="justify-content-end ml-5"><?php echo $total_tabels?></h4>
+                <p>Total tabels</p>
             </div>
 
         </div>
         <div class="down p-3 view">
-        <a href="#" class="ms-3" style="text-decoration: none;color: #4169E1;font-size: 17px;font-weight: 300;">
+        <a href="tabels.php" class="ms-3" style="text-decoration: none;color: #4169E1;font-size: 17px;font-weight: 300;">
             View Details  
         </a>
         <a href="#" style="text-decoration: none; color:#4169E1; float:right;">
