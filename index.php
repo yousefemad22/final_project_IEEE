@@ -180,7 +180,7 @@ $css_file="home.css";
 
 	                                                    <div class="menu-image">
 													        <div class="image-preview">
-													            <div style="background-image: url('<?php echo"admin/img/img".$menu['menu_image'];; ?>');"></div>
+													            <div style="background-image: url('<?php echo"admin/".$menu['menu_image']; ?>');"></div>
 													        </div>
 													    </div>
 														                                                    
@@ -230,7 +230,7 @@ $css_file="home.css";
 	            
 	                                                    <div class="menu-image">
 													        <div class="image-preview">
-													            <div style="background-image: url('<?php echo "admin/img/img".$menu['menu_image']; ?>');"></div>
+													            <div style="background-image: url('<?php echo "admin/".$menu['menu_image']; ?>');"></div>
 													        </div>
 													    </div>
 	                                                    <div class="caption">
