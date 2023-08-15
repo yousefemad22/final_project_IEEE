@@ -1,0 +1,87 @@
+.login {
+    max-width: 560px;
+    background: #fff;
+    position: relative;
+    margin: 15px auto;
+    padding: 55px 85px 55px 85px;
+    border-radius: 3px;
+    
+  }
+  
+  .login input[type="text"],
+  .login input[type="password"] {
+    border: 1px solid #e6e6e6;
+    box-shadow: none;
+    color: #555555;
+    line-height: 1.2;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    background: transparent;
+    height: 55px;
+    padding: 0 25px 0 25px;
+    border-bottom-right-radius: 2px !important;
+    border-top-right-radius: 2px !important;
+  }
+  
+  .login input[type="text"]:focus,
+  .login input[type="password"]:focus {
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset,
+      0 0 8px rgba(82, 168, 236, 0.6);
+    outline: 0 none;
+  }
+  
+  .login button[type="submit"] {
+    background: #28d;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    line-height: 40px;
+    font-size: 16px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .login button[type="submit"]:hover {
+    background: #17c;
+  }
+  
+  /* Buttons' focus effect */
+  .login button[type="submit"]:focus {
+    border-color: #05a;
+  }
+  
+  .login .forgotPW {
+    font-size: 13px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin: 0;
+  }
+  
+  .login100-form-title {
+    font-size: 30px;
+    color: #555555;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: left;
+    width: 100%;
+    display: block;
+    padding-bottom: 32px;
+  }
+  
+  .login .txt1 {
+    font-size: 13px;
+    color: #555555;
+    line-height: 1.4;
+    text-transform: uppercase;
+    padding-bottom: 11px;
+    display: block;
+    font-weight: bold;
+  }
+  
+  .login .form-input {
+    margin-bottom: 50px;
+  }
