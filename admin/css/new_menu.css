@@ -1,0 +1,5 @@
+.form_header{
+    background-color:#f1fafd ;
+    display:flex;
+    justify-content: space-between;
+}
