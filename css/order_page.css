@@ -1,0 +1,139 @@
+/* body
+{
+    background: #f7f7f7;
+} */
+#regForm {
+ 
+    margin: 100px auto;
+    padding: 40px;
+ 
+    
+  }
+  
+  
+  /* Mark input boxes that gets an error on validation: */
+  input.invalid {
+    background-color: #ffdddd;
+  }
+  
+  /* Hide all steps by default: */
+  .tab {
+    display: none;
+  }
+  
+  /* Make circles that indicate the steps of the form: */
+  .step {
+      height: 15px;
+      width: 15px; 
+    margin: 100 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+     opacity: 0.5;
+  }
+  
+  /* Mark the active step: */
+  .step.active {
+    opacity: 1;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #04AA6D;
+  }
+.all_menu
+{
+    max-width: 720px;
+    margin: 50px auto;
+    padding: 0px 20px;
+}
+
+.category_name
+{
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    /* line-height: 1.5; */
+    margin-top: 22px;
+    /* text-transform: capitalize; */
+}
+.menus
+{
+    border-radius: 10px;
+    background-color: white;
+ 
+    overflow: hidden;
+    box-shadow: 0 0 5px 0 rgba(60, 66, 87, 0.04), 0 0 10px 0 rgba(0, 0, 0, 0.04);
+}
+.box
+{
+    font-size: 15px;
+    color: #000901;
+    /* line-height: 1.29; */
+    border-bottom: solid 2px #e5e5e5;
+    cursor: pointer;
+    padding: 15px 30px ;
+}
+.row
+{
+
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.price{
+    display: flex;
+    align-items: center;
+    
+}
+input[type = number]{
+    width: 39px;
+    margin-left: 15px;
+    border: solid 1.5px;
+    border-radius: 6px;
+    text-align: center;
+
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active 
+{
+    color: #fff;
+    background-color: #9e8a78;
+    border-color: #9e8a78;
+}
+
+.select_button{
+    width: 70px;
+    display: flex;
+    margin-left: 30px;
+    justify-content: flex-end;
+}
+
+
+.label.focus,
+.label:focus
+{
+    outline: none;
+    background:initial;
+    box-shadow: none;
+    color: #000901;
+  
+}
+
+.label:hover
+{
+    color: #f7f7f7;
+    background-color: #000901;
+    border-color: #000901      ;
+}
+.next_btn{
+    margin-left: 70rem;
+    margin-bottom: 30px;
+}
+.client_details{
+    margin-top: 9rem;
+}
