@@ -33,7 +33,7 @@ $css_file="home.css";
               <a class=" active1" href="" style="padding:7px;">Reserve Table</a>
             </li>
             <li class="nav-item mx-5">
-              <a class=" active1" href="../admin/login.php" style="padding:7px;">Admin</a>
+              <a class=" active1" href="admin/login.php" style="padding:7px;">Admin</a>
             </li>
           </ul>
         </div>
